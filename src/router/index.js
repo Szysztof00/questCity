@@ -8,17 +8,24 @@ const routes = [
 
     },
     {
-        path:'/about',
-        name: 'AboutView',
-        component: () => import('../views/AboutView.vue'),
+        path:'/stats',
+        name: 'Stats',
+        component: () => import('../views/Stats.vue'),
 
     
     },{
-        path:'/create',
-        name: 'CreateGame',
-        component: () => import('../views/CreateGame.vue'),
+        path:'/findGame',
+        name: 'FindGame',
+        component: () => import('../views/FindGame.vue'),
+
+    },
+    {
+        path:'/login',
+        name: 'Login',
+        component: () => import('../views/Login.vue'),
 
     }
+
 
 
 ]

@@ -1,65 +1,30 @@
 
-
 <template>
-  <main>
-    <div class="container-fluid px-4">
-      <h1 class="mt-4">Witaj w aplikacji!</h1>
-      <ol class="breadcrumb mb-4">
-        <li class="breadcrumb-item active">Panel administracyjny QuestCity</li>
-      </ol>
+  <div class="content-bg">
+  <div class="tekst">
+    <h1>Tekst powitalny</h1>
 
-<!--      <div class="row">-->
-<!--        <div class="col-xl-6">-->
-<!--          <div class="card mb-4">-->
-<!--            <div class="card-header">-->
-<!--              <i class="fas fa-chart-area me-1"></i>-->
-<!--              Area Chart Example-->
-<!--            </div>-->
-<!--            <div class="card-body"><canvas id="myAreaChart" width="100%" height="40"></canvas></div>-->
-<!--          </div>-->
-<!--        </div>-->
-<!--        <div class="col-xl-6">-->
-<!--          <div class="card mb-4">-->
-<!--            <div class="card-header">-->
-<!--              <i class="fas fa-chart-bar me-1"></i>-->
-<!--              Bar Chart Example-->
-<!--            </div>-->
-<!--            <div class="card-body"><canvas id="myBarChart" width="100%" height="40"></canvas></div>-->
-<!--          </div>-->
-<!--        </div>-->
-<!--      </div>-->
-      <h4>TWOJE GRY</h4>
-      <table class="table">
-        <thead>
-        <tr>
-          <th scope="col">#</th>
-          <th scope="col">Nazwa</th>
-          <th scope="col">Działania</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-          <th scope="row">1</th>
-          <td>Nazwa gry</td>
-          <td>Edytuj/Usuń</td>
-        </tr>
-        <tr>
-          <th scope="row">2</th>
-          <td>Nazwa gry</td>
-          <td>Edytuj/Usuń</td>
-        </tr>
-        <tr>
-          <th scope="row">3</th>
-          <td>Nazwa gry</td>
-          <td>Edytuj/Usuń</td>
-        </tr>
-        </tbody>
-      </table>
-    </div>
-  </main>
 
+    
+  </div>
+</div>
 </template>
-<script setup>
-</script>
 
-<style></style>
+<style scoped>
+
+  .tekst{
+word-wrap: break-word; 
+
+}
+
+.content-bg{
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+
+  
+</style>

@@ -6,5 +6,5 @@ export default defineConfig({
   plugins: [
     vue(),
   ],
-  base: '/QUESTCITY-GUI/',
+  base: '/quest-city-gui-user/',
 })
