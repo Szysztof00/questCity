@@ -1,0 +1,1 @@
+import{_ as t,o as c,c as o,p as _,a,b as s}from"./index-fbe5fb46.js";const n={},d=e=>(_("data-v-2f0c924f"),e=e(),a(),e),p={class:"content-bg"},i=d(()=>s("div",{class:"tekst"},[s("h1",null,"Tekst powitalny")],-1)),f=[i];function r(e,l){return c(),o("div",p,f)}const u=t(n,[["render",r],["__scopeId","data-v-2f0c924f"]]);export{u as default};
